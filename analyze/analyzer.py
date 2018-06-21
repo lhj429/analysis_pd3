@@ -87,7 +87,7 @@ def analysis_correlation_by_tourspot(resultfiles):
             r.append(correlation_coefficient(x, y))
         results.append({'tourspot':spot, 'r_중국':r[0], 'r_일본':r[1], 'r_미국':r[2]})
 
-    print(results)
+    return results
 
     '''
     results = []

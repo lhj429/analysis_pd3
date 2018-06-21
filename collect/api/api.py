@@ -33,7 +33,6 @@ def pd_fetch_foreign_visitor(country_code, year, month, service_key=''):
 
     return json_items.get('item') if isinstance(json_items, dict) else None
 
-
 def pd_fetch_tourspot_visitor(
         district1='',
         district2='',
